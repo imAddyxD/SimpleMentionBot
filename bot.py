@@ -163,5 +163,5 @@ async def telegraph(client, message):
         os.remove(download_location)
 
 print("~~~~Started~~~~~")
-print("¯\_(ツ)_/¯ Need Help Join @RhythmOfft")
+print("¯\_(ツ)_/¯ Need Help Join @RhythmOff")
 client.run_until_disconnected()
