@@ -36,7 +36,7 @@ async def cancel(event):
 async def start(event):
   await event.reply("^_^ Hey, Welcome To Simple Mention Bot\nIt can tag 15,000 Members in Group and 300 Members In Channel.\nNeed Help /help ",
                     buttons=(
-                      [Button.url('🙃 Add To Group', 'https://t.me/SSimpleMentionBot?startgroup=true'),
+                      [Button.url('🙃 Add To Group', 'https://t.me/SimpleMentionBot?startgroup=true'),
                       Button.url('Support', 'https://t.me/RhythmOff'),
                       Button.url('Updates', 'https://t.me/RhythmOfficial')]
                     ),
@@ -61,7 +61,7 @@ async def help(event):
 #bsdk credit de dena verna maa chod dege
 
 #tag
-@client.on(events.NewMessage(pattern="^/tag ?(.*) "))
+@client.on(events.NewMessage(pattern="^/tag ?(.*)"))
 async def mentionall(event):
   global moment_worker
   if event.is_private:
