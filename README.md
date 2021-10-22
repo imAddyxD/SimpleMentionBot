@@ -14,7 +14,7 @@
 ### 🎯 Credits and Other
 - [I](https://github.com/ImAddyXD) for this Project ;)
 
-### 😇Neee Help
+### 😇Need Help
 Join
 - [Channel](https://t.me/RhythmOfficial)
 - [Group](https://t.me/RhythmOff)
